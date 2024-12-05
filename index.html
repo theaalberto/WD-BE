@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Althea's Page</title>
+    
+    <link rel="icon" href="brand.png" type="image/x-icon">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet"> <!-- Font Awesome for icons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900&display=swap" rel="stylesheet">
+
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            font-family: 'Courier New', Courier, monospace;
+            background-color: #f7b4b4; 
+            color: #333;
+            text-align: center;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column; 
+        }
+
+        .main-content {
+            display: flex;
+            flex: 1;
+            width: 90%;
+            max-width: 1200px;
+            margin: 30px auto;
+            padding: 0 15px;
+            flex-wrap: wrap; 
+        }
+
+        h2 {
+            font-family: "Roboto", sans-serif;
+            font-size: 2vw; 
+            color: #b74168; 
+            text-align: center;
+        }
+
+        .button-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap; 
+            margin-top: 20px;
+            width: 100%; 
+        }
+
+        .button-container .btn-custom {
+            background-color: rgba(247, 216, 232, 0.8); 
+            border: 2px solid #f5c6d6; 
+            color: #b74168; 
+            font-size: 18px;
+            padding: 15px 25px; 
+            margin: 10px 15px;
+            cursor: pointer;
+            border-radius: 25px; 
+            font-family: 'Garamond', serif;
+            box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); 
+            transition: background-color 0.3s ease;
+            flex: 1 1 250px; 
+            max-width: 300px; 
+            text-decoration: none;
+            text-align: center;
+        }
+
+        .button-container .btn-custom:hover {
+            background-color: rgba(245, 198, 214, 0.8); 
+            border-color: #b74168; 
+        }
+
+        .card-custom {
+            background-color: #F8C8D0; 
+            flex: 1;  
+            margin-right: 20px;
+            border-radius: 10px;
+            box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); 
+            margin-bottom: 20px;
+        }
+
+        .card-body-custom {
+            text-align: center;
+            padding: 20px;
+        }
+
+        .card-img-custom {
+            width: 200px; 
+            height: auto;
+            border-radius: 50%;
+        }
+
+        .card-text {
+            font-family: "Raleway", sans-serif;
+        }
+
+        .card-footer-custom {
+            background-color: #F8C8D0;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        .card-footer-custom h3 {
+            font-family: "Roboto", sans-serif;
+            font-weight: bold;
+            color: #b74168;
+        }
+
+        .social-icons i {
+            font-size: 24px;
+            margin: 0 15px;
+            color: #b74168;
+            transition: color 0.3s;
+        }
+
+        .social-icons i:hover {
+            color: #f5c6d6;
+        }
+
+        @media (max-width: 768px) {
+            .main-content {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            h2 {
+                font-size: 5vw; 
+            }
+
+            .button-container .btn-custom {
+                font-size: 16px;
+                padding: 12px 20px;
+                margin: 8px 5px;
+            }
+
+            .card-custom {
+                width: 100%;
+                margin-right: 0;
+            }
+
+            .card-img-custom {
+                width: 150px;
+            }
+
+            .social-icons i {
+                font-size: 20px;
+                margin: 0 10px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            h2 {
+                font-size: 6vw;
+            }
+
+            .button-container .btn-custom {
+                font-size: 14px;
+                padding: 10px 15px;
+                margin: 8px 5px;
+            }
+
+            .card-img-custom {
+                width: 120px;
+            }
+
+            .social-icons i {
+                font-size: 18px;
+                margin: 0 8px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="main-content">
+        <div class="card card-custom">
+            <div class="card-body card-body-custom">
+                <h2 class="card-title">Ma. Althea R. Alberto</h2>
+                <img src="profile.png" alt="Profile Image" class="card-img-custom">
+                <p class="card-text mt-3">I'm a third-year college student pursuing a Bachelor of Science in Information Technology at the Polytechnic University of the Philippines - Sto Tomas Campus.</p>
+            </div>
+
+            <div class="card-footer-custom">
+                <h3>Connect with me</h3>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/ma.althear.alberto" target="_blank"><i class="fab fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/_theaalberto/" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/ma-althea-alberto-706236307/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="button-container-wrapper" style="flex: 2;">
+            <h2>My Projects</h2>
+            <div class="button-container">
+                <a href="Activity_4/Activity4.html" class="btn btn-custom">iPhone 15 Showcase</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
