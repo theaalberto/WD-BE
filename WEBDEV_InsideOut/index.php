@@ -91,7 +91,7 @@
             $imageSrc = 'data:image/jpeg;base64,' . $imageData;
 
             if ($counter === 1) {
-                echo '<a href="..\lover\lover.php?name=' . urlencode($row['name']) . '" style="text-decoration: none;">';
+                echo '<a href="..\WEBDEV_Insideout\lover\lover.php?name=' . urlencode($row['name']) . '" style="text-decoration: none;">';
             } 
             if ($counter === 2) {
                 echo '<a href="student\student.php?name=' . urlencode($row['name']) . '" style="text-decoration: none;">';
